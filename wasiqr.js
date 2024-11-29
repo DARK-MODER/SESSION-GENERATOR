@@ -59,19 +59,7 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id, { text: '' + b64data });
 	
 				   let WASI_MD_TEXT = `
-POCE MD BOT CONNECTED
-______________________________________
-╔════◇
-║ *『 WOW YOU'VE CHOSEN POCE MD 』*
-║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
-╚════════════════════════╝
-╔═════◇
-║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Ytube:* _youtube.com/@KENTONX-TECH_
-║❒ *Owner:* _https://wa.me/263789432940_
-║❒ *Repo:* _https://github.com/DARK-MODER/poce-md
-║❒ *WaGroup:* _https://chat.whatsapp.com/BSFZGh0YT3K9NHDt4UJmZy_
-╚════════════════════════╝
+PIXXO BOT SESSION ID GENERATED SUCCESSFULLY
 _____________________________________
 _Don't Forget To Give Star To My Repo_`
 	 await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id,{text:WASI_MD_TEXT},{quoted:session})
